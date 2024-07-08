@@ -1,4 +1,4 @@
-# This-repository-is-for-practising-the-GitHub-Flow
+# First-Walktrough-of-Vulnhub-CTF
 Description
 Back to the Top
 VM Name: JIS-CTF : VulnUpload
@@ -63,6 +63,49 @@ Boom yra
 
 <img width="483" alt="Per php rever shell pasijungta" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/569a2729-0506-4ba9-a88d-932e07418d56">
 
+## 3rd flag'as
+
+Tiesiog ziurim failus per ls ir cd ir ieskom kasko kol surandam hint.txt kur yra trecias flagas ir hintas, kad vardas technawi ir passwordas yra pasleptame faile flag.txt
+
+<img width="498" alt="3rd flag su hintu" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/48d752f9-ab8b-4884-ba1c-2f532b073422">
+
+## Bandymas
+
+Bandau rasti per failus kaska userio varda bet nieko gero nerandu.
+
+<img width="482" alt="Bandziau ieskoti per technawi bet nieko nerasta" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/925859ff-66bb-48c8-bc63-20da48dc5736">
+
+## Find naudojimas
+
+Matome visų failu, kuriuos vartotojas technawi turi prieiga, sarasa. Tarp isvardytu failu radau credentials.txt faila, kuriame slaptazodis.
+
+<img width="530" alt="Pasinaudojus find : ,randam 4 flaga"
+src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/61cc0017-4052-4bf1-91bd-e7cfe8a020db">
+
+# SSH prisijungimas
+
+Cia tiesiog ssh komanda prisijungiame su gautu vardu ir slaptazodziu.
+ssh technawi@192.168.1.150
+
+<img width="532" alt="ssh logina pasiimam" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/fa0b5431-841e-4fba-bf96-f0017a0e3e08">
+
+## Flag.txt
+
+Tai dabar jau esame masinoje tai bandau atidaryti flag.txt kuriam reikejo neturejau teisiu atidaryti, pavyksta :) 
+
+<img width="529" alt="Bandom flag txt atidaryti kurio neisejo" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/dd9413fa-9e57-42c1-8baf-13af063209ca">
+
+## Root access
+
+Vysnia ant torto root access.
+ 
+<img width="532" alt="Vysnia ant torto root acces" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/71d8aafc-7a3d-4e7b-b643-be9da3e23468">
 
 
+# Apibendrinant 
 
+Vm gan lengvas bet itvirtina galvoti ir naudoti toolsus pagal paskirty.
+Reiketu patobuleti ties php-reverse-shell.php
+Kiek dabar praziuriu kitu walktrough tai zmones naudoja vietoj dirb , dirbuster ir atrodo gan galingesnis toolsas su GUI.
+
+# Visa tai dar pasiliksiu sau nes reikia graziau aprasyti .
