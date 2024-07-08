@@ -42,13 +42,27 @@ password 3vilH@ckor
 
 ## Puslapis
 
-Placiau apie puslapi - suvedus logginus matau kad yra failų įkėlimo funkciją, kur vartotojas gali įkelti failą į tikslinę sistemą. Ta faila galima perziureti /uploaded_files/failopavadinimas
+Prisijungus su aptiktais admin loginais, programoje galime rasti failu įkėlimo funkcija turinti webpage. Anksčiau radau /uploaded_files , todel manau, kad ten nueina ikelimai.
 
 <img width="983" alt="suvedus loginus " src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/db0acf07-b933-4193-aba9-7b259d2f0a2b">
 
 ## PHP reverse shell
 
-Tai pagalvojus jei sistema 
+Tai pagalvojus jei sistema leidzia mums ikelti kai kuriuos failus. Tai kodel nepabandyti php reverse shell.
+Naudoju kali-linux'e esanti php reverse shell'a.
 
 <img width="609" alt="php reverse naudojam" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/f9d8b0c7-6beb-4041-9000-ff62192ece98">
+
+## Pasijungiame php reverse shell
+
+Ikeliam php scripta i webpage pasijungiame per 192.168.1.150/uploaded_files/php-reverse-shell.php 
+
+Set upinam Net cat listener porta nc -nlvp 55555; 
+
+Boom yra 
+
+<img width="483" alt="Per php rever shell pasijungta" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/569a2729-0506-4ba9-a88d-932e07418d56">
+
+
+
 
