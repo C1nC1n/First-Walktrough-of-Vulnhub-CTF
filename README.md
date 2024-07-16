@@ -102,10 +102,3 @@ Vysnia ant torto root access.
 <img width="532" alt="Vysnia ant torto root acces" src="https://github.com/C1nC1n/First-Walktrough-of-Vulnhub-CTF/assets/163519448/71d8aafc-7a3d-4e7b-b643-be9da3e23468">
 
 
-# Apibendrinant 
-
-Vm gan lengvas bet itvirtina galvoti ir naudoti toolsus pagal paskirty.
-Reiketu patobuleti ties php-reverse-shell.php
-Kiek dabar praziuriu kitu walktrough tai zmones naudoja vietoj dirb , dirbuster ir atrodo gan galingesnis toolsas su GUI.
-
-# Visa tai dar pasiliksiu sau nes reikia graziau aprasyti .
